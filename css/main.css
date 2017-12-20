@@ -1,0 +1,67 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Calibri', 'Tahoma', sans-serif;
+    font-size: 16px;
+    color: #fff;
+    line-height: 1.5;
+}
+
+#bg{
+    position: fixed;
+    min-height: 100%;
+    min-width: 100%;
+    z-index: -100;
+}
+
+.navbar-custom{
+    background-color: rgba(0,71,171,0.1);
+    border: none;
+}
+
+.navbar-custom .navbar-brand{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.navbar-custom .navbar-brand:hover{
+    cursor: pointer;
+    color: #0074ab;
+}
+
+.navbar-custom ul li .active{
+    background-color: #0074ab;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    background-color: #0074ab;
+    color: #fff;
+    font-size: 17px;
+}
+
+.navbar-default .navbar-nav>li>a{
+    color: #fff;
+    text-align: center;
+}
+
+.navbar-default .navbar-nav>li>a:hover{
+    background-color: #0074ab;
+    color: #fff;
+}
+
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{
+    background-color: #0074ab;
+}
+
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form{
+    border: none;
+}
+
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
+    text-align: center;
+}
