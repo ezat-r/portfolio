@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Home Page</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        
+        <!-- custom CSS -->
+        <link href="./css/main.css" type="text/css" rel="stylesheet">
+    </head>
+    
+    <body>
+        <!-- Video to be act as background -->
+        <video autoplay loop muted id="bg">
+            <source src="./portfolio_files/bg_video.mp4" type="video/mp4">
+        </video>
+        <!-- End of background -->
+        
+        <!-- Navigation -->
+        <nav role="navigation" class="navbar-custom navbar navbar-default navbar-fixed-top" id="myNav">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand">E<span id="hiLight">.Rahimi</span></a>
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navList">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
+                <div class="navbar-collapse collapse" id="navList">
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="active"><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Portfolio</a></li>
+                        <li><a href="#">Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- End of navigation -->
+    </body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+</html>
