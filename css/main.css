@@ -39,7 +39,6 @@ body{
 .navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover{
     background-color: #0074ab;
     color: #fff;
-    font-size: 17px;
 }
 
 .navbar-default .navbar-nav>li>a{
@@ -89,11 +88,25 @@ body{
 /*About section*/
 
 #about{
+/*    text-align: center;*/
+    padding-top: 100px;
+}
+
+#pictureFrame{
     text-align: center;
-    padding-top: 140px;
 }
 
 #myPicture{
-    width: 20%;
+    width: 80%;
     transform: rotate(90deg);
+    border: 2px solid #fff;
+}
+
+#panel{
+    background-color: rgba(0,116,171,0.5);
+}
+
+#about #panel p{
+    font-size: 18px;
+    padding: 5px;
 }
