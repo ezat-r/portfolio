@@ -85,3 +85,15 @@ body{
     font-size: 40px;
     padding: bottom: 40px;
 }
+
+/*About section*/
+
+#about{
+    text-align: center;
+    padding-top: 140px;
+}
+
+#myPicture{
+    width: 20%;
+    transform: rotate(90deg);
+}
