@@ -80,7 +80,7 @@ body{
 
 /*Home section- jumbotron*/
 .jumbotron{
-    padding-top: 140px;
+    padding-top: 160px;
     background-color: transparent;
     text-align: center;
     border: none;
@@ -147,21 +147,18 @@ body{
 
 /*Portfolio section*/
 
-#proj1{
-    margin-top: 100px;
-    background-color: rgba(0,116,171,0.5);
-    padding-bottom: 10px;
-}
-
-#proj1 h1{
-    font-size: 20px;
+.proj h1{
+    font-size: 24px;
     font-weight: bold;
     text-align: center;
 }
 
-#proj1 p{
-    text-align: center;
-    font-size: 16px;
+.col-md-7>p{
+    margin-bottom: 7px;
+}
+
+.text{
+    margin: 5px 0 5px 10px; 
 }
 
 .port_img{
@@ -171,25 +168,50 @@ body{
 
 .caption p{
     font-style: italic;
+    text-align: center;
     font-size: 14px;
 }
 
 #buttons{
-    margin: 0 auto;
-    width: 300px;
+    margin: 20px auto;
+    height: 40px;
+    width: 100%;
+    position: relative;
 }
 
 .btn{
     background-color: #0074ab;
     border: 1px solid white;
     font-size: 16px;
+    width: 200px;
     text-align: center;
-    margin: 5px 10px;
 }
 
 .btn:hover{
     background-color: rgba(0,116,171,0.4);
     color: #fff;
+}
+
+#btn1{
+    position: absolute;
+    left: 0;
+}
+
+#btn2{
+    position: absolute;
+    right: 0;
+}
+
+#proj1{
+    margin-top: 70px;
+    background-color: rgba(0,116,171,0.5);
+    padding-bottom: 10px;
+}
+
+#proj2{
+    margin-top: 20px;
+    background-color: rgba(0,116,171,0.5);
+    padding-bottom: 10px;
 }
 
 /*Footer section*/
