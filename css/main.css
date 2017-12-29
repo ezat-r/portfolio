@@ -214,6 +214,51 @@ body{
     padding-bottom: 10px;
 }
 
+/*portfolio section responsiveness for Images only*/
+@media only screen and (max-width: 1200px){
+    .port_img{
+        padding-top: 50px;
+    }
+}
+
+@media only screen and (max-width: 970px){
+    .port_img{
+        padding-top: 20px;
+    }
+}
+
+/*portfolio section responsiveness for everything else*/
+@media only screen and (max-width: 768px){
+    .btn{
+        display: block;
+    }
+    
+    #buttons, #btn1, #btn2{
+        position: static;
+        display: block;
+    }
+    
+    #buttons{
+        width: 100%;
+        height: auto;
+        margin: 20px 0;
+    }
+    
+    #btn1, #btn2{
+        width: 100%;
+        margin: 10px 0;
+    }
+    
+    .text, p{
+        margin: 5px 0;
+        font-size: 17px;
+    }
+    
+    p{
+        text-align: justify;
+    }
+}
+
 /*Footer section*/
 .footer{
     background-color: rgba(0,116,171,0.1);
