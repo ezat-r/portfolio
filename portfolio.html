@@ -2,10 +2,10 @@
 <html>
     <head lang="en">
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
         <title>Portfolio Page</title>
         <!-- Bootstrap -->
-        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
         
         <!-- custom CSS -->
         <link href="./css/main.css" type="text/css" rel="stylesheet">
@@ -53,7 +53,7 @@
                 </div>
                 <div class="col-md-7">
                     <h1>My First Ever Web Page...</h1>
-                    <p>After completing an online course, I decided to put my skills to the test and create a web page.</p>
+                    <p class="lead">After completing an online course, I decided to put my skills to the test and create a web page.</p>
                     <p class="text">HTML5 Semantics were used extensively.</p>
                     <p class="text">CSS classes were used to avoid duplication of CSS code.</p>
                     <p class="text">Made use of Media Queries to allow optimum presentation on small screen devices.</p>
@@ -74,11 +74,31 @@
                 </div>
                 <div class="col-md-7">
                     <h1>Interactive Maths Game...</h1>
-                    <p>Maths game intended for primary school kids, challenging their knowledge of Times tables up to 10.</p>
+                    <p class="lead">Maths game intended for primary school kids, challenging their knowledge of Times tables up to 10.</p>
                     <p class="text">A score was to be given for correct answers with a time limit of 60 secs.</p>
                     <p class="text">Keeping the end user in mind; simple fonts and bright neutral colours were used.</p>
                     <p class="text">JavaScript and JQuery were used to generate different questions in succession of correct answers. Timer, wrong and correct answer mechanism was also implemented.</p>
                     <p class="text">Made use of CSS3 transitions, for button hover, active and click states.</p>
+                    <div id="buttons">
+                        <button class="btn" id="btn1">View Project</button>
+                        <button class="btn" id="btn2">View Repository</button>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="proj3" class="row proj">
+                <div class="col-md-5">
+                    <img class="port_img" src="./portfolio_files/proj3.png">
+                    <div class="caption">
+                        <p>App Landing Page</p>
+                    </div>
+                </div>
+                <div class="col-md-7">
+                    <h1>App Landing Page...</h1>
+                    <p class="lead">A landing page to promote a Holiday Finder app.</p>
+                    <p class="text">Made use of Bootstrap v3, to ensure rensonsiveness on small screen devices.</p>
+                    <p class="text">Logo, background image and clear simple text are used to give a professional look.</p>
+                    <p class="text">Made use of CSS media queries along with Bootstrap's breakpoints to ensure good presentation across all screen sizes.</p>
                     <div id="buttons">
                         <button class="btn" id="btn1">View Project</button>
                         <button class="btn" id="btn2">View Repository</button>
@@ -96,7 +116,7 @@
         <!-- End of Footer section -->
     </body>
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 </html>
