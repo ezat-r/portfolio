@@ -16,12 +16,13 @@ body{
 }
 
 /*Background responsiveness*/
-@media only screen and (max-width:768px){
+@media (max-width:768px){
     #bg{
         display: none;
     }
     body{
-        background: url("../portfolio_files/bg_img.jpg") center center fixed;
+        background: url("../portfolio_files/bg_img1.webp") center center fixed;
+/*        background: url("../portfolio_files/proj1.png") center center fixed;*/
         background-size: cover;
     }
 }
@@ -131,7 +132,6 @@ body{
 
 #myPicture{
     width: 80%;
-    transform: rotate(90deg);
     border: 2px solid #fff;
 }
 
