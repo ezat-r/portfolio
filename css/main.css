@@ -21,7 +21,7 @@ body{
         display: none;
     }
     body{
-        background: url("../portfolio_files/bg_img1.webp") center center fixed;
+        background: url("../portfolio_files/bg_img1.webp") center center fixed no-repeat;
         background-size: cover;
     }
 }
