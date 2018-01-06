@@ -313,6 +313,8 @@ body{
 @media only screen and (max-width: 768px){
     #contactHeader{
         text-align: center;
+        font-size: 28px;
+        font-weight: bold;
     }
 }
 
