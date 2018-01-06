@@ -292,6 +292,10 @@ body{
     col-md-7 p{
         text-align: justify;
     }
+    
+    .caption{
+        display: none;
+    }
 }
 
 /*Footer section*/
