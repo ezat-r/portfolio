@@ -296,6 +296,26 @@ body{
     }
 }
 
+/*Contact section*/
+
+#contactHeader{
+    margin-bottom: 20px;
+}
+
+#formButton{
+    display: block;
+    width: 100%;
+    margin-top: 10px;
+}
+
+/*Contact section responsiveness on small screen devices*/
+
+@media only screen and (max-width: 768px){
+    #contactHeader{
+        text-align: center;
+    }
+}
+
 /*Footer section*/
 .footer{
     background-color: rgba(0,116,171,0.1);
